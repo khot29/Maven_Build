@@ -8,6 +8,7 @@ public class HelloWorldServlet extends HttpServlet
 {
 @Override
   public void service( HttpServletRequest req, HttpServletResponse res ) throws IOException {
+    // hello world
     PrintWriter out = res.getWriter();
     out.println( "Hello, World!" );
     out.close();
